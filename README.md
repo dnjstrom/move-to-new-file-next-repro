@@ -4,14 +4,16 @@ Affects typescript versions **5.5 and above**.
 
 ## How to reproduce
 
-1. Open `src/next.ts` in this repo
-2. Highlight the 3rd line (`const metadata: Metadata = {};`) in the file
-3. Hit Cmd+. to open the refactoring context menu
-4. Select "Move to a new file"
+1. Download this repo and install dependencies with `npm i`
+2. Open the project in VS Code and navigate to the `src/next.ts` file
+3. Make sure VS Code uses the workspace typescript version (Command palete: "Typescript: Select typescript version…")
+4. Highlight the 3rd line (`const metadata: Metadata = {};`) in the file
+5. Hit Cmd+. to open the refactoring context menu
+6. Select "Move to a new file"
 
 Note how the metadata constant is NOT moved to a new file.
 
-## Counter example
+## Counter examples
 
 Executing the reproduction above on the `src/react.ts` file works fine.
 
