@@ -6,7 +6,7 @@ Affects typescript versions **5.5 and above**.
 
 1. Download this repo and install dependencies with `npm i`
 2. Open the project in VS Code and navigate to the `src/next.ts` file
-3. Make sure VS Code uses the workspace typescript version (Command palete: "Typescript: Select typescript version…")
+3. Make sure VS Code uses the workspace typescript version (Command palette: "Typescript: Select typescript version…")
 4. Highlight the 3rd line (`const metadata: Metadata = {};`) in the file
 5. Hit Cmd+. to open the refactoring context menu
 6. Select "Move to a new file"
